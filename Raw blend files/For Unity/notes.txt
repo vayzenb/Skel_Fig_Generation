@@ -1,0 +1,17 @@
+Select your model, look at import settings in Unity. Change from Import to calculate on normals and tangents. Experiment around with both settings. You also need to be sure your faces / normals are facing the right direction in Blender before importing. Hit 'N' in blender, goto display, be sure you have backface culling turned on. If faces are looking the wrong direction, select them in edit mode and Ctrl+F to flip them. Also will help if you enable GLSL instead of multitexture, and change your view in blender from solid to Textured, add some lighting if needed. Remember to Ctrl+A in Blender to Apply Scale before importing to Unity as well. I'm not sure if you're doing .blend or exporting to fbx, I usually just import the .blend file directly. Oh, and be sure you're unwrapping the model in Blender or you'll get a solid color model with no texture. Hope this helps.
+
+#THIS WORKS
+1. Change to balloon
+2. Convert mesh from curve0
+	a. Alt + C
+3. Delete all unnecesary stuff (camera, curves)
+	a. leave sun
+7. Apply scale
+	a. Ctrl + A
+
+
+
+
+4. Switch to Blender Game mode
+5. Switch to texture mode
+6. Unwrap texture
